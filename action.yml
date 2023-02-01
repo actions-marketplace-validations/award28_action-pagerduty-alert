@@ -1,4 +1,4 @@
-name: 'PagerDuty Alert'
+name: 'PagerDuty Alerting'
 description: 'GitHub Action to send a critical PagerDuty alert, e.g. on action failure.'
 inputs:
   pagerduty-integration-key:
