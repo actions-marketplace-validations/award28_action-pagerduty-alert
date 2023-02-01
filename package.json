@@ -1,6 +1,6 @@
 {
   "name": "action-pagerduty-alert",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "GitHub Action to send a critical PagerDuty alert",
   "main": "index.js",
   "scripts": {
@@ -8,18 +8,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Entle/action-pagerduty-alert.git"
+    "url": "git+https://github.com/award28/action-pagerduty-alert.git"
   },
   "keywords": [
     "PagerDuty",
     "Actions"
   ],
-  "author": "Johannes Jonker <johannes@entle.co>",
+  "contributors": [
+    {
+      "name" : "Johannes Jonker",
+      "email" : "johannes@entle.co"
+    },
+    {
+      "name" : "Austin Ward",
+      "email" : "ward.austin28@gmail.com",
+      "url" : "https://austinward.me/"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Entle/action-pagerduty-alert/issues"
+    "url": "https://github.com/award28/action-pagerduty-alert/issues"
   },
-  "homepage": "https://github.com/Entle/action-pagerduty-alert#readme",
+  "homepage": "https://github.com/award28/action-pagerduty-alert#readme",
   "dependencies": {
     "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0",
